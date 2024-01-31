@@ -1,0 +1,19 @@
+<%args>
+$schema
+$static_content_path => undef
+$show_accept_dialog => undef
+</%args>
+
+<center>
+<h1>Welcome to CitrusBase!</h1>
+<br />
+<img src="https://upload.wikimedia.org/wikipedia/commons/b/b0/OrangeBloss_wb.jpg" width="500" />
+<br/>
+<!-- & homepage/carousel.mas & -->
+<br/>
+</center>
+
+<br/>
+
+
+<& homepage/github_pullrequests.mas &>
