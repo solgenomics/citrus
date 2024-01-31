@@ -7,7 +7,7 @@ services:
 
     container_name: breedbase_citrus_web
     ports:
-      - 8102:8080
+      - 8103:8080
     volumes:
       - type: bind
         source: /export/prod/public_citrus
