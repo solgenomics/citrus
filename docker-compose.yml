@@ -3,7 +3,7 @@ version: "3.7"
 services:
   breedbase:
 
-    image: breedbase/breedbase:latest
+    image: breedbase/breedbase:v1.05 
 
     container_name: breedbase_citrus_web
     ports:
@@ -26,7 +26,7 @@ services:
         target: /home/production/cxgn/sgn/mason/site/footer/body.mas
       - type: bind
         source: /home/production/citrus/analytics.mas
-        target: /home/production/cxgn/cassava/mason/site/header/analytics.mas
+        target: /home/production/cxgn/citrus/mason/site/header/analytics.mas
       - type: bind
         source: db_dumps
         target: /db_dumps
