@@ -3,7 +3,7 @@ version: "3.7"
 services:
   breedbase:
 
-    image: breedbase/breedbase:v1.05 
+    image: breedbase/breedbase:v1.09  
 
     container_name: breedbase_citrus_web
     ports:
@@ -19,8 +19,8 @@ services:
         source: sgn_local.conf
         target: /home/production/cxgn/sgn/sgn_local.conf
       - type: bind
-        source: mason
-        target: /home/production/cxgn/cassava/mason
+        source: /home/production/citrus/mason
+        target: /home/production/cxgn/citrus/mason
       - type: bind
         source: /home/production/citrus/footer_body.mas
         target: /home/production/cxgn/sgn/mason/site/footer/body.mas
